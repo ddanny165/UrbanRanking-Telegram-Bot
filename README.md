@@ -1,10 +1,10 @@
 # UrbanRanking Telegram Bot
 UI interface for a [coursework Web API](https://github.com/ddanny165/UrbanRankingApi) (Telegram Bot) using C#
 ## Table of Contents
-- About
-- Product functions
-- How does it actually work?
-- User guide on how to use this bot
+- [About](https://github.com/ddanny165/UrbanRankingTelegBot#about)
+- [Product functions](https://github.com/ddanny165/UrbanRankingTelegBot#product-functions)
+- [How does it actually work?](https://github.com/ddanny165/UrbanRankingTelegBot#how-does-it-actually-work)
+- [User guide on how to use this bot](https://github.com/ddanny165/UrbanRankingTelegBot#user-guide-on-how-to-use-this-bot)
 
 ## About
 UrbanRanking bot can be a useful tool to get at least a basic image of living standards in different big cities and the most popular tourist destinations in various key areas that affect our daily lives. Quickly and without a significant need to leave a messenger.
