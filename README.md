@@ -14,9 +14,9 @@ UrbanRanking bot can be a useful tool to get at least a basic image of living st
 
 - **Get a detailed review on one of the cities just by typing the city name and sending it to the bot.**
 
-Example of city rating categories: Housing, Cost of Living, Safety, Travel Connectivity, Education, Internet Access, Healthcare, Internet Access, Environmental Quality and so on. (all the data is taken from public API's - teleport.org && rapidapi.com). In addition to assessing the city by criteria, it is also provided to display some general description that summarizes all points of the city's rating.
+Example of the city rating categories: Housing, Cost of Living, Safety, Travel Connectivity, Education, Internet Access, Healthcare, Internet Access, Environmental Quality and so on. (all the data is taken from public API's - teleport.org && rapidapi.com). In addition to assessing the city by criteria, it is also provided to display some general description that summarizes all the points of the city's rating.
 
-- **Everytime when user requests a review on one of the available cities, bot automatically saves the city name to the saved list.**
+- **Everytime when a user requests a review on one of the available cities, bot automatically saves the city name to the saved list.**
 
 There is also an opportunity to view a saved list (every user has its own list), modify it (clear it all or delete a single unit).
 
@@ -50,13 +50,13 @@ After entering the ***/botguide*** command, bot sends the instruction for use to
 
 
 
-- If the user is not sure that the city for which he plans to get a rating is present in our database - there is a command ***/getavailable + letter***, it returns the names of all cities that are in my service which start with the letter specified by the user
+- If a user is not sure that the city for which he plans to get a review is present in our database - there is a command ***/getavailable + letter***, it returns the names of all the cities which are present in my service and which start with the letter specified by the user.
 
 ![PresentCities](https://github.com/ddanny165/pictures/blob/main/ins6.jpg)
 
 
 
-- All names of cities for which a user received a review rating are stored in the database. Each user has their own list. The ***/getsavedlist*** command helps you to get a list of all saved cities.
+- All the names of cities for which a user received a review are stored in the database. Each user has their own list. The ***/getsavedlist*** command helps you to get your own list of all saved cities.
 
 ![/GETSAVEDLIST](https://github.com/ddanny165/pictures/blob/main/ins7.jpg)
 
@@ -68,25 +68,25 @@ After entering the ***/botguide*** command, bot sends the instruction for use to
 
 
 
-- In addition, there is also a command to completely clear the list of saved cities - ***/clearlist***.
+- In addition, there is also a command to completely clear a list of saved cities - ***/clearlist***.
 
 ![/CLEARLIST](https://github.com/ddanny165/pictures/blob/main/ins9.jpg)
 
 
 
-- The user also has an opportunity to receive a list of the best cities for some evaluation categories. Such categories are businessfreedom, costofliving, housing, leisure & culture, safety, taxation, travelconnectivity. This is all done with the ***/getbest + category name*** command.
+- A user also has an opportunity to receive a list of the best cities for some evaluation categories. Such categories are businessfreedom, costofliving, housing, leisure & culture, safety, taxation, travelconnectivity. This is all done with the ***/getbest + category name*** command.
 
 ![/GETBEST](https://github.com/ddanny165/pictures/blob/main/ins10.jpg)
 
 
-- In addition, the user also has the opportunity to subscribe to get a review on a random city daily. It is possible to do with the ***/subscribe*** command.
+- In addition, a user also has the opportunity to subscribe in order to get a review on a random city daily. It is possible to do with the ***/subscribe*** command.
 
 ![/SUBSCRIBE](https://github.com/ddanny165/pictures/blob/main/ins11.jpg)
 
 
 
-- Moreover, to unsubscribe from getting a review on a random city daily - all you have to do is to send the bot command ***/unsubscribe***.
+- Moreover, to unsubscribe from getting a review on a random city daily - all you have to do is to send the bot a command ***/unsubscribe***.
 
 ![/UNSUBSCRIBE](https://github.com/ddanny165/pictures/blob/main/ins12.jpg)
 
-The bot sends the user a message about the successful unsubscription and removes the user's id from the database.
+The bot sends a user the message about the successful unsubscription and removes a user's id from the database.
