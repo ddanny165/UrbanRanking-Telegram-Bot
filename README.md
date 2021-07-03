@@ -18,7 +18,7 @@ Examples of the city rating categories: Housing, Cost of Living, Safety, Travel 
 
 - **Everytime when a user requests a review on one of the available cities, bot automatically saves the city name to the saved list.**
 
-There is also an opportunity to view a saved list (every user has its own list), modify it (clear it all or delete a single unit).
+There is also an opportunity to view a saved list (every user has its list), modify it (clear it all or delete a single unit).
 
 - **Subscribe to get a daily review on a random city daily**
 - **Unsubscribe from getting a review on a random city daily**
