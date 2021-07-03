@@ -14,7 +14,7 @@ UrbanRanking bot can be a useful tool to get at least a basic image of living st
 
 - **Get a detailed review on one of the cities just by typing the city name and sending it to the bot.**
 
-Examples of the city rating categories: Housing, Cost of Living, Safety, Travel Connectivity, Education, Internet Access, Healthcare, Internet Access, Environmental Quality and so on. (all the data is taken from public API's - teleport.org && rapidapi.com). In addition to assessing the city by criteria, it is also provided to display some general description that summarizes all the points of the city's rating.
+Examples of the city rating categories: Housing, Cost of Living, Safety, Travel Connectivity, Education, Internet Access, Healthcare, Internet Access, Environmental Quality, and so on. (all the data is taken from public API's - teleport.org && rapidapi.com). In addition to assessing the city by criteria, it is also provided to display some general description that summarizes all the points of the city's rating.
 
 - **Everytime when a user requests a review on one of the available cities, bot automatically saves the city name to the saved list.**
 
