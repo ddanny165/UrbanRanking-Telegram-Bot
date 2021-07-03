@@ -30,21 +30,21 @@ The user interacts with the product through the UI interface (telegram bot). The
 
   The [WEB API](https://github.com/ddanny165/UrbanRankingApi) has 12 HTTP methods, including 7 GET, 2 POST and 3 DELETE. They are placed in the following two controllers: [CitiesController](https://github.com/ddanny165/UrbanRankingApi/blob/main/UrbanRankingAPI/Controllers/CitiesController.cs) and [UsersController](https://github.com/ddanny165/UrbanRankingApi/blob/main/UrbanRankingAPI/Controllers/UsersController.cs).
 
-  CitiesController includes three GET methods for working with public API's and two other methods for working with data taken from the database, which does not require authorization. UsersController includes 2 GET, 2 POST and 3 DELETE methods, this controller is used only for working with the database.
+  CitiesController includes three GET methods for working with public API's and two other methods for working with data taken from the database, which does not require authorization. UsersController includes 2 GET, 2 POST, and 3 DELETE methods, this controller is used only for working with the database.
   
 ## User guide on how to use this bot
 
-When user launches this bot for the first time, telegram automatically sends the ***/start*** command. Bot processes the given command, greets the new user and offers him to use the ***/botguide*** command to get detailed instructions on how to use this bot.
+When a user launches this bot for the first time, telegram automatically sends the ***/start*** command. Bot processes the given command, greets the new user, and offers him to use the ***/botguide*** command to get detailed instructions on how to use this bot.
 
 ![/start](https://github.com/ddanny165/pictures/blob/main/ins1.jpg)
 
-After entering the ***/botguide*** command, bot sends the instruction for use to user. 
+After entering the ***/botguide*** command, the bot sends the instruction for use to a user. 
 
 ![/botguide](https://github.com/ddanny165/pictures/blob/main/imageedit_1_9738707193.png)
 
 
 
-- To get a city review **all you have to do is to type in a city name and send it to the bot**, letter's case is not important. **Bot automatically saves the name of the city which you were looking for.** 
+- **All you have to do to get a city review is to type in a city name and send it to the bot**, letter's case is not important. **The bot automatically saves the name of the city which you were looking for.** 
 
 ![CityReview](https://github.com/ddanny165/pictures/blob/main/photo_2021-07-03_17-47-09.jpg)
 
@@ -56,7 +56,7 @@ After entering the ***/botguide*** command, bot sends the instruction for use to
 
 
 
-- All the names of cities for which a user received a review are stored in the database. Each user has their own list. The ***/getsavedlist*** command helps you to get your own list of all saved cities.
+- All the names of cities for which a user received a review are stored in the database. Each user has their own list. The ***/getsavedlist*** command helps you to get your list of all saved cities.
 
 ![/GETSAVEDLIST](https://github.com/ddanny165/pictures/blob/main/ins7.jpg)
 
@@ -79,7 +79,7 @@ After entering the ***/botguide*** command, bot sends the instruction for use to
 ![/GETBEST](https://github.com/ddanny165/pictures/blob/main/ins10.jpg)
 
 
-- In addition, a user also has the opportunity to subscribe in order to get a review on a random city daily. It is possible to do with the ***/subscribe*** command.
+- In addition, a user also has the opportunity to subscribe to get a review on a random city daily. It is possible to do with the ***/subscribe*** command.
 
 ![/SUBSCRIBE](https://github.com/ddanny165/pictures/blob/main/ins11.jpg)
 
